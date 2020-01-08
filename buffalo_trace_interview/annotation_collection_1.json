@@ -1,0 +1,25 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"@id": "https://nunncenter.aviaryplatform.com/collections/1/collection_resources/1/iiif/annocoll/1",
+	"@type": "AnnotationCollection",
+	"label": {
+		"en": ["Interview With Marsha Wiechman, April 30, 2009"]
+	},
+		"provider": [
+		{
+			"id": "http://libraries.uky.edu/nunncenter",
+			"type": "Agent",
+			"label": { "en": [ "Louie B. Nunn Center for Oral History" ] },
+			"homepage": [
+				{
+					"id": "https://nunncenter.aviaryplatform.com/",
+					"type": "Text",
+					"label": { "en": [ "Louie B. Nunn Center for Oral History" ] },
+					"format": "text/html"
+				}
+			],
+		}	
+	],
+	"first": { "id": "{{ id.path }}/canvas/1/annopage/2", "type": "AnnotationPage" },
+	"last": {"id": "{{ id.path }}/annopage/5", "type": "AnnotationPage"}
+}

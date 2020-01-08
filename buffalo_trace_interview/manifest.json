@@ -1,0 +1,404 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"@id": "https://nunncenter.aviaryplatform.com/collections/1/collection_resources/1/iiif/manifest",
+	"@type": "Manifest",
+	"label": {
+		"en": ["Interview With Marsha Wiechman, April 30, 2009"]
+	},
+	"metadata": [
+		{
+			"label": { "en": ["Creator"]},
+			"value": {"en": ["Marsha Wiechman", "Thomas Troland"]}
+		},
+		{
+			"label": { "en": ["Date"]},
+			"value": {"en": ["2009-04-30"]}
+		}
+	],
+	"summary": {
+		"en": ["Marsha Wiechman has been an employee of Buffalo Trace for twenty-two years at the time of this interview. Marsha grew up on a farm in Kansas and lived there for many years before coming to Buffalo Trace. In this interview, Wiechman describes her education and professional training and explains how she ended up at Buffalo Trace. She lists and explains the different positions she has held at the distillery, describes tasting procedures, and explains some of the terminology used by workers at the distillery. Wiechman also discusses workplace safety and the treatment of female workers at the plant. She compares the work environment in the 1980s with the work environment of today. In addition, Wiechman describes how Elmer T. Lee contributed to her positive experience working for Buffalo Trace."]
+	},
+	"requiredStatement": {
+		"label": {"en": ["Attribution"]},
+		"value": {"en": ["All rights to the interviews, including but not restricted to legal title, copyrights and literary property rights, have been transferred to the University of Kentucky Libraries. Interviews may only be reproduced with permission from Louie B. Nunn Center for Oral History, Special Collections and Digital Programs, University of Kentucky Libraries."]}
+	},
+	"provider": [
+		{
+			"id": "http://libraries.uky.edu/nunncenter",
+			"type": "Agent",
+			"label": { "en": [ "Louie B. Nunn Center for Oral History" ] },
+			"homepage": [
+				{
+					"id": "https://nunncenter.aviaryplatform.com/",
+					"type": "Text",
+					"label": { "en": [ "Louie B. Nunn Center for Oral History" ] },
+					"format": "text/html"
+				}
+			],
+		}	
+	],
+	"items": [
+		{
+			"id":"{{ id.path }}/canvas/1",
+			"type":"Canvas",
+			"label": {
+				"en": ["Video 1 of 1"]
+			},
+			"duration":3740.0,
+			"height": 480,
+			"width": 640,
+			"items":[
+				{
+					"id":"{{ id.path }}/canvas/1/annopage/1",
+					"type":"AnnotationPage",
+					"items":[
+						{
+							"id":"{{ id.path }}/canvas/1/annopage/1/anno/1",
+							"type":"Annotation",
+							"motivation":["painting"],
+							"body":{
+								"id":"https://player.vimeo.com/video/253466639",
+								"type":"Video",
+								"format":"video/mp4",
+								"duration":3740.0,
+								"height": 480,
+								"width": 640,
+							},
+							"target":"{{ id.path }}/canvas/1"
+						}
+					]
+				}
+			],
+				"annotations": [
+				{
+					"id": "{{ id.path }}/canvas/1/annopage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path}}/canvas/1/annopage/1/anno/1",
+							"type": "Annotation",
+							"label": "Transcript",
+							"motivation": ["supplementing", "transcribing"],
+							"body": {
+								"type": "TextualBody",
+								"value": "<v TROILAND> My name is Tom Troland, from the University of Kentucky. We're interviewing today Marsha Wiechman, It's April 30, 2009. This is part of the Buffalo Trace Oral History Project. We are located here at the Buffalo Trace Distillery. Marsha, I'd like to thank you so much for taking time out for this interview. <v WIECHMAN> You're welcome. Glad to do it. <v TROLAND> Let's begin with having you tell me just a little bit about yourself. <v WIECHMAN> Like, how much do you want to know? I was born and raised in Kansas, and lived there for thirty-eight years, and moved here to Kentucky. And been working here at the distillery for twenty-two years, and I was born and raised on a farm in Kansas, and was a licensed hairdresser-beautician for fifteen years in Kansas, prior to moving out here. And--found a job at the distillery,",
+								"format": "text/vtt"
+							},
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "RangeSelector",
+									"startSelector": {
+										"type": "PointSelector",
+										"t": 0.0
+									},
+									"endSelector": {
+										"type": "PointSelector",
+										"t": 60.0
+									}
+								}
+							},
+							"seeAlso": [
+								{
+									"id": "{{ id.path }}/transcription_1.vtt",
+									"type": "Dataset",
+									"format": "text/vtt",
+									"profile": "https://www.w3.org/TR/webvtt1/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "{{ id.path }}/canvas/1/annopage/2",
+					"type": "AnnotationPage",
+					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
+					"items": [
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/2/anno/1",
+							"type": "Annotation",
+							"label": { "en": ["Title"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Childhood in Kansas",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 0.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/2/anno/2",
+							"type": "Annotation",
+							"label": { "en": ["Synopsis"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Marsha Wiechman is introduced. She describes her childhood in Kansas growing up on a wheat farm. She talks about going to school in a one-room schoolhouse, living through many tornadoes, and the hard work of farm life.",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 0.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/2/anno/3",
+							"type": "Annotation",
+							"label": { "en": ["Partial transcript"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "My name is Tom Troland from the University of Kentucky.",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 0.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/2/anno/4",
+							"type": "Annotation",
+							"label": { "en": ["Subject"]},
+							"motivation": ["supplementing", "tagging"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Childhood",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Country Life",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Families",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Family Farms",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Farm Life",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Farmers",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 0.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/2/anno/5",
+							"type": "Annotation",
+							"label": { "en": ["Keyword"]},
+							"motivation": ["supplementing", "tagging"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Barns",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Electricity",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Hairdressers",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Hard Work",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Heat",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 0.0
+								}
+							}
+						}
+					]	
+				},
+				{
+					"id": "{{ id.path }}/canvas/1/annopage/3",
+					"type": "AnnotationPage",
+					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
+					"items": [
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/3/anno/1",
+							"type": "Annotation",
+							"label": { "en": ["Title"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Employment History",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 553.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/3/anno/2",
+							"type": "Annotation",
+							"label": { "en": ["Synopsis"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Wiechman says she wanted to be a nurse as a child, but ended up going to cosmetology school. She talks about the various jobs she has held over the years before coming to Buffalo Trace, including welder, carpenter, and construction worker.",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 553.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/3/anno/3",
+							"type": "Annotation",
+							"label": { "en": ["Partial transcript"]},
+							"motivation": ["supplementing", "describing"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "What were your thoughts at that time regarding what you might like to do in your future?",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 553.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/3/anno/4",
+							"type": "Annotation",
+							"label": { "en": ["Subject"]},
+							"motivation": ["supplementing", "tagging"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Employment--Kansas",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Employment--Kentucky",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Small Business--Ownership",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 553.0
+								}
+							}
+						},
+						{
+							"id": "{{ id.path }}/canvas/1/annopage/3/anno/5",
+							"type": "Annotation",
+							"label": { "en": ["Keyword"]},
+							"motivation": ["supplementing", "tagging"],
+							"body": [
+								{
+									"type": "TextualBody",
+									"value": "Beauticians",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Beauty Shops",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Buffalo Trace Distillery",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Carpentry",
+									"format": "text/plain",
+								},
+								{
+									"type": "TextualBody",
+									"value": "Childhood",
+									"format": "text/plain",
+								}
+							],
+							"target": {
+								"source": "{{ id.path }}/canvas/1",
+								"selector": {
+									"type": "PointSelector",
+									"t": 553.0
+								}
+							}
+						}
+					]	
+				}
+			]
+		}
+	],
+}
