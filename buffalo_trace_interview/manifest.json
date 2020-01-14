@@ -73,6 +73,7 @@
 				{
 					"id": "{{ id.path }}/canvas/1/annopage/1",
 					"type": "AnnotationPage",
+					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
 					"items": [
 						{
 							"id": "{{ id.path}}/canvas/1/annopage/1/anno/1",
