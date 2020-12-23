@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"@id": "https://nunncenter.aviaryplatform.com/collections/1/collection_resources/1/iiif/manifest",
+	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/manifest",
 	"@type": "Manifest",
 	"label": {
 		"en": ["Interview With Marsha Wiechman, April 30, 2009"]
@@ -39,7 +39,7 @@
 	],
 	"items": [
 		{
-			"id":"{{ id.path }}/canvas/1",
+			"id":"{{ id.path }}/file/1",
 			"type":"Canvas",
 			"label": {
 				"en": ["Video 1 of 1"]
@@ -49,11 +49,11 @@
 			"width": 640,
 			"items":[
 				{
-					"id":"{{ id.path }}/canvas/1/annopage/1",
+					"id":"{{ id.path }}/file/1/content/1",
 					"type":"AnnotationPage",
 					"items":[
 						{
-							"id":"{{ id.path }}/canvas/1/annopage/1/anno/1",
+							"id":"{{ id.path }}/ile/1/content/1/annotation/1",
 							"type":"Annotation",
 							"motivation":["painting"],
 							"body":{
@@ -64,19 +64,19 @@
 								"height": 480,
 								"width": 640,
 							},
-							"target":"{{ id.path }}/canvas/1"
+							"target":"{{ id.path }}/file/1"
 						}
 					]
 				}
 			],
 				"annotations": [
 				{
-					"id": "{{ id.path }}/canvas/1/annopage/1",
+					"id": "{{ id.path }}/file/1/transcript/2",
 					"type": "AnnotationPage",
-					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
+					"partOf": [{"id": "{{ id.path }}/annotationCollecton/1", "type": "AnnotationCollection"}],
 					"items": [
 						{
-							"id": "{{ id.path}}/canvas/1/annopage/1/anno/1",
+							"id": "{{ id.path}}/file/1/transcript/2/annotation/1",
 							"type": "Annotation",
 							"label": "Transcript",
 							"motivation": ["supplementing", "transcribing"],
@@ -111,12 +111,12 @@
 					]
 				},
 				{
-					"id": "{{ id.path }}/canvas/1/annopage/2",
+					"id": "{{ id.path }}/file/1/index/3",
 					"type": "AnnotationPage",
-					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
+					"partOf": [{"id": "{{ id.path }}/annotationCollection/2", "type": "AnnotationCollection"}],
 					"items": [
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/2/anno/1",
+							"id": "{{ id.path }}/file/1/index/3/annotation/3",
 							"type": "Annotation",
 							"label": { "en": ["Title"]},
 							"motivation": ["supplementing", "describing"],
@@ -128,7 +128,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 0.0
@@ -136,7 +136,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/2/anno/2",
+							"id": "{{ id.path }}/file/1/index/3/annotation/4",
 							"type": "Annotation",
 							"label": { "en": ["Synopsis"]},
 							"motivation": ["supplementing", "describing"],
@@ -148,7 +148,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 0.0
@@ -156,7 +156,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/2/anno/3",
+							"id": "{{ id.path }}/file/1/index/3/annotation/5",
 							"type": "Annotation",
 							"label": { "en": ["Partial transcript"]},
 							"motivation": ["supplementing", "describing"],
@@ -168,7 +168,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 0.0
@@ -176,7 +176,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/2/anno/4",
+							"id": "{{ id.path }}/file/1/index/3/anno/5",
 							"type": "Annotation",
 							"label": { "en": ["Subject"]},
 							"motivation": ["supplementing", "tagging"],
@@ -213,7 +213,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 0.0
@@ -221,7 +221,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/2/anno/5",
+							"id": "{{ id.path }}/file/1/index/3/annotation/6",
 							"type": "Annotation",
 							"label": { "en": ["Keyword"]},
 							"motivation": ["supplementing", "tagging"],
@@ -253,22 +253,15 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 0.0
 								}
 							}
-						}
-					]	
-				},
-				{
-					"id": "{{ id.path }}/canvas/1/annopage/3",
-					"type": "AnnotationPage",
-					"partOf": [{"id": "{{ id.path }}/annocoll/1", "type": "AnnotationCollection"}],
-					"items": [
+						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/3/anno/1",
+							"id": "{{ id.path }}/file/1/index/3/annotation/7",
 							"type": "Annotation",
 							"label": { "en": ["Title"]},
 							"motivation": ["supplementing", "describing"],
@@ -280,7 +273,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 553.0
@@ -288,7 +281,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/3/anno/2",
+							"id": "{{ id.path }}/file/1/index/3/annotation/8",
 							"type": "Annotation",
 							"label": { "en": ["Synopsis"]},
 							"motivation": ["supplementing", "describing"],
@@ -300,7 +293,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 553.0
@@ -308,7 +301,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/3/anno/3",
+							"id": "{{ id.path }}/file/1/index/3/annotation/9",
 							"type": "Annotation",
 							"label": { "en": ["Partial transcript"]},
 							"motivation": ["supplementing", "describing"],
@@ -320,7 +313,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 553.0
@@ -328,7 +321,7 @@
 							}
 						},
 						{
-							"id": "{{ id.path }}/canvas/1/annopage/3/anno/4",
+							"id": "{{ id.path }}/file/1/index/3/annotation/10",
 							"type": "Annotation",
 							"label": { "en": ["Subject"]},
 							"motivation": ["supplementing", "tagging"],
@@ -350,47 +343,7 @@
 								}
 							],
 							"target": {
-								"source": "{{ id.path }}/canvas/1",
-								"selector": {
-									"type": "PointSelector",
-									"t": 553.0
-								}
-							}
-						},
-						{
-							"id": "{{ id.path }}/canvas/1/annopage/3/anno/5",
-							"type": "Annotation",
-							"label": { "en": ["Keyword"]},
-							"motivation": ["supplementing", "tagging"],
-							"body": [
-								{
-									"type": "TextualBody",
-									"value": "Beauticians",
-									"format": "text/plain",
-								},
-								{
-									"type": "TextualBody",
-									"value": "Beauty Shops",
-									"format": "text/plain",
-								},
-								{
-									"type": "TextualBody",
-									"value": "Buffalo Trace Distillery",
-									"format": "text/plain",
-								},
-								{
-									"type": "TextualBody",
-									"value": "Carpentry",
-									"format": "text/plain",
-								},
-								{
-									"type": "TextualBody",
-									"value": "Childhood",
-									"format": "text/plain",
-								}
-							],
-							"target": {
-								"source": "{{ id.path }}/canvas/1",
+								"source": "{{ id.path }}/file/1",
 								"selector": {
 									"type": "PointSelector",
 									"t": 553.0
@@ -398,7 +351,7 @@
 							}
 						}
 					]	
-				}
+				},
 			]
 		}
 	],

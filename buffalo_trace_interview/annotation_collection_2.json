@@ -1,9 +1,9 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/iiif/annotationCollection/1",
+	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/iiif/annotationCollection/2",
 	"@type": "AnnotationCollection",
 	"label": {
-		"en": ["Transcript: 2009oh171_bik012_wiechman_ohm-2.xml"]
+		"en": ["Index: 2009oh171_bik012_wiechman_ohm-2.xml"]
 	},
 		"provider": [
 		{
@@ -20,6 +20,6 @@
 			],
 		}	
 	],
-	"first": { "id": "{{ id.path }}/file/1/transcript/2", "type": "AnnotationPage" },
-	"last": {"id": "{{ id.path }}/file/1/transcript/2", "type": "AnnotationPage"}
+	"first": { "id": "{{ id.path }}/file/1/index/3", "type": "AnnotationPage" },
+	"last": {"id": "{{ id.path }}/file/1/index/3", "type": "AnnotationPage"}
 }
