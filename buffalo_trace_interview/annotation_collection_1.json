@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/iiif/annotationCollection/1",
+	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/annotationCollection/1",
 	"@type": "AnnotationCollection",
 	"label": {
 		"en": ["Transcript: 2009oh171_bik012_wiechman_ohm-2.xml"]
