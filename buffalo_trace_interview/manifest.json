@@ -34,8 +34,15 @@
 					"label": { "en": [ "Louie B. Nunn Center for Oral History" ] },
 					"format": "text/html"
 				}
-			],
+			]
 		}	
+	],
+	"thumbnail": [
+		{
+		"id": "https://d2htnfwlizdcnh.cloudfront.net/collection_resource_files/thumbnails/000/000/001/small/1610441108_aviary-intro.mp4_1610441113.jpg?1610441120",
+		"type": "Image",
+		"format": "image/jpeg"
+		}
 	],
 	"items": [
 		{
@@ -47,13 +54,18 @@
 			"duration":3740.0,
 			"height": 480,
 			"width": 640,
+			"thumbnail": {
+				"id": "https://d2htnfwlizdcnh.cloudfront.net/collection_resource_files/thumbnails/000/000/001/small/1610441108_aviary-intro.mp4_1610441113.jpg?1610441120",
+				"type": "Image",
+				"format": "image/jpeg"
+			},
 			"items":[
 				{
 					"id":"{{ id.path }}/file/1/content/1",
 					"type":"AnnotationPage",
 					"items":[
 						{
-							"id":"{{ id.path }}/ile/1/content/1/annotation/1",
+							"id":"{{ id.path }}/file/1/content/1/annotation/1",
 							"type":"Annotation",
 							"motivation":["painting"],
 							"body":{
@@ -62,18 +74,30 @@
 								"format":"video/mp4",
 								"duration":3740.0,
 								"height": 480,
-								"width": 640,
+								"width": 640
 							},
 							"target":"{{ id.path }}/file/1"
 						}
 					]
 				}
 			],
-				"annotations": [
+			"annotations": [
 				{
 					"id": "{{ id.path }}/file/1/transcript/2",
 					"type": "AnnotationPage",
-					"partOf": [{"id": "{{ id.path }}/annotationCollecton/1", "type": "AnnotationCollection"}],
+					"label": {
+						"en": ["Transcript 1"]
+					},
+					"metadata": [
+						{
+							"label": { "en": ["Key"]},
+							"value": {"en": ["Value"]}
+						},
+						{
+							"label": { "en": ["Key"]},
+							"value": {"en": ["Value"]}
+						}
+					],
 					"items": [
 						{
 							"id": "{{ id.path}}/file/1/transcript/2/annotation/1",
@@ -113,7 +137,19 @@
 				{
 					"id": "{{ id.path }}/file/1/index/3",
 					"type": "AnnotationPage",
-					"partOf": [{"id": "{{ id.path }}/annotationCollection/2", "type": "AnnotationCollection"}],
+					"label": {
+							"en": ["Index 1"]
+						},
+					"metadata": [
+						{
+							"label": { "en": ["Key"]},
+							"value": {"en": ["Value"]}
+						},
+						{
+							"label": { "en": ["Key"]},
+							"value": {"en": ["Value"]}
+						}
+					],
 					"items": [
 						{
 							"id": "{{ id.path }}/file/1/index/3/annotation/3",
@@ -124,7 +160,7 @@
 								{
 									"type": "TextualBody",
 									"value": "Childhood in Kansas",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -144,7 +180,7 @@
 								{
 									"type": "TextualBody",
 									"value": "Marsha Wiechman is introduced. She describes her childhood in Kansas growing up on a wheat farm. She talks about going to school in a one-room schoolhouse, living through many tornadoes, and the hard work of farm life.",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -164,7 +200,7 @@
 								{
 									"type": "TextualBody",
 									"value": "My name is Tom Troland from the University of Kentucky.",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -184,32 +220,32 @@
 								{
 									"type": "TextualBody",
 									"value": "Childhood",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Country Life",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Families",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Family Farms",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Farm Life",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Farmers",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -229,27 +265,27 @@
 								{
 									"type": "TextualBody",
 									"value": "Barns",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Electricity",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Hairdressers",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Hard Work",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Heat",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -269,7 +305,7 @@
 								{
 									"type": "TextualBody",
 									"value": "Employment History",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -289,7 +325,7 @@
 								{
 									"type": "TextualBody",
 									"value": "Wiechman says she wanted to be a nurse as a child, but ended up going to cosmetology school. She talks about the various jobs she has held over the years before coming to Buffalo Trace, including welder, carpenter, and construction worker.",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -309,7 +345,7 @@
 								{
 									"type": "TextualBody",
 									"value": "What were your thoughts at that time regarding what you might like to do in your future?",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -329,17 +365,17 @@
 								{
 									"type": "TextualBody",
 									"value": "Employment--Kansas",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Employment--Kentucky",
-									"format": "text/plain",
+									"format": "text/plain"
 								},
 								{
 									"type": "TextualBody",
 									"value": "Small Business--Ownership",
-									"format": "text/plain",
+									"format": "text/plain"
 								}
 							],
 							"target": {
@@ -349,10 +385,10 @@
 									"t": 553.0
 								}
 							}
-						}
-					]	
-				},
+						}	
+					]
+				}	
 			]
 		}
-	],
+	]
 }
