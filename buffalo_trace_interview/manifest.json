@@ -1,7 +1,7 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/manifest",
-	"@type": "Manifest",
+	"id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/manifest",
+	"type": "Manifest",
 	"label": {
 		"en": ["Interview With Marsha Wiechman, April 30, 2009"]
 	},
@@ -394,7 +394,7 @@
 }
 =======
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/manifest",
+  "id": "https://nunncenter.aviaryplatform.com/iiif/9882j6876p/manifest",
   "@type": "Manifest",
   "label": {
     "en": [
