@@ -1,0 +1,470 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://weareavp.aviaryplatform.com/iiif/q814m9208v/manifest",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "This Is A VTT Example for BL"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Duration"
+        ]
+      },
+      "value": {
+        "en": [
+          "00:00:47"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publisher"
+        ]
+      },
+      "value": {
+        "en": [
+          "AVP"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Agent"
+        ]
+      },
+      "value": {
+        "en": [
+          "Bertram Lyons (Speaker)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "2021-01-25 (Created)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ]
+      },
+      "value": {
+        "en": [
+          "English (Primary)"
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://weareavp.aviaryplatform.com/aboutus",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "AVP"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://weareavp.aviaryplatform.com/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "AVP"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://d2hx64tshfdz71.cloudfront.net/organizations/logo_images/000/000/007/original/AVP_logo.png?1549563699",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://d2hx64tshfdz71.cloudfront.net/public/images/audio-default.png",
+      "type": "Image",
+      "format": "image/png"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Media File 1 of 1"
+        ]
+      },
+      "duration": 47.92454,
+      "thumbnail": [
+        {
+          "id": "https://d2hx64tshfdz71.cloudfront.net/public/images/audio-default.png",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/content/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/content/1/annotation/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://s3.wasabisys.com/aviary-p-weareavp/collection_resource_files/resource_files/000/104/736/original/iiif-summary.m4a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DRZ4XUC5U3O9CTLZ2DUQ%2F20210322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210322T150029Z&X-Amz-Expires=96&X-Amz-SignedHeaders=host&X-Amz-Signature=2249916104b733522d1fa9680c074fa2ee9138b8a19ab456feac2f4f75ef2f33",
+                "type": "Audio",
+                "format": "audio/mp3",
+                "duration": 47.92454
+              },
+              "target": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "VTT as Transcript"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/1",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "In this recording Bert Lyons from AVP is talking about",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 3.709
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 8.16
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/2",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "AVP's new IIIF presentation API endpoint",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 9.16
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 15.4
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/3",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Here we have the opportunity for Aviary Resources to be exposed as IIIF manifests",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 13.4
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 23.32
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/4",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Each media file attached to the resource will be its own canvas/item",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 24.32
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 30.73
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/5",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "and will be also the first annotation page - the painting - onto which other",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 31.73
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 38.18
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22004/annotation/6",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "annotation pages can be used to annotated the media recording itself.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 39.18
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 46.369
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "VTT as Annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005/annotation/7",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Bert starts talking here.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 3.709
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 8.16
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005/annotation/8",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Bert is going to discuss Aviary's new IIIF Presentation API.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 9.16
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 15.4
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005/annotation/9",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Aviary resources will be mapped to IIIF Manifests.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 13.4
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 23.32
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005/annotation/10",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Aviary media files will be mapped to Canvas-Items.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 24.32
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 31.73
+                  }
+                }
+              }
+            },
+            {
+              "id": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736/transcript/22005/annotation/11",
+              "type": "Annotation",
+              "motivation": [
+                "supplementing",
+                "transcribing"
+              ],
+              "body": {
+                "type": "TextualBody",
+                "value": "Aviary transcripts and indexes will map to Annotation Pages-Annotations in IIIF.",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736",
+                "selector": {
+                  "type": "RangeSelector",
+                  "startSelector": {
+                    "type": "PointSelector",
+                    "t": 39.18
+                  },
+                  "endSelector": {
+                    "type": "PointSelector",
+                    "t": 46.369
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
