@@ -100,7 +100,7 @@
   ],
   "thumbnail": [
     {
-      "id": "https://d2hx64tshfdz71.cloudfront.net/public/images/audio-default.png",
+      "id": "https://d2hx64tshfdz71.cloudfront.net/collection_resource_files/thumbnails/000/104/736/small/1_VTT-512.png?1619204404",
       "type": "Image",
       "format": "image/png"
     }
@@ -117,7 +117,7 @@
       "duration": 47.92454,
       "thumbnail": [
         {
-          "id": "https://d2hx64tshfdz71.cloudfront.net/public/images/audio-default.png",
+          "id": "https://d2hx64tshfdz71.cloudfront.net/collection_resource_files/thumbnails/000/104/736/small/1_VTT-512.png?1619204404",
           "type": "Image",
           "format": "image/png"
         }
@@ -134,9 +134,9 @@
                 "painting"
               ],
               "body": {
-                "id": "https://s3.wasabisys.com/aviary-p-weareavp/collection_resource_files/resource_files/000/104/736/original/iiif-summary.m4a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DRZ4XUC5U3O9CTLZ2DUQ%2F20210322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210322T150029Z&X-Amz-Expires=96&X-Amz-SignedHeaders=host&X-Amz-Signature=2249916104b733522d1fa9680c074fa2ee9138b8a19ab456feac2f4f75ef2f33",
+                "id": "https://s3.wasabisys.com/aviary-p-weareavp/collection_resource_files/resource_files/000/104/736/original/iiif-summary.m4a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DRZ4XUC5U3O9CTLZ2DUQ%2F20210426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210426T152631Z&X-Amz-Expires=96&X-Amz-SignedHeaders=host&X-Amz-Signature=00b8dbbd53b4a32ee81d72423223240fb7c983a3bff17df53297f59e19b0eea4",
                 "type": "Audio",
-                "format": "audio/mp3",
+                "format": "audio/m4a",
                 "duration": 47.92454
               },
               "target": "https://weareavp.aviaryplatform.com/collections/1280/collection_resources/35619/file/104736"
